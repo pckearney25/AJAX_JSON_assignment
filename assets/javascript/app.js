@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     //Gobal variables:
     //a 'seed' array for the application
-    var dogs = ["Beagle", "Collie", "Daschund", "Poodle", "German Shepherd"];
+    var dogs = ["Beagle", "Puppy", "Daschund", "Greyhound", "Poodle", "Old Yeller"];
 
     //Defined Functions: 
     function displayDogGifs(){
@@ -31,15 +31,14 @@ $(document).ready(function() {
                 var p = $("<p>").text("Rating: " + results[i].rating);
                 var dogImage =$("<img>");
                 dogImage.addClass("gif");
-                dogImage.attr("src", results[i].images.fixed_width_still.url);
-                dogImage.attr("data-animate", results[i].images.fixed_width.url);
-                dogImage.attr("data-still", results[i].images.fixed_width_still.url);
+                dogImage.attr("src", results[i].images.fixed_height_still.url);
+                dogImage.attr("data-animate", results[i].images.fixed_height.url);
+                dogImage.attr("data-still", results[i].images.fixed_height_still.url);
                 dogImage.attr("data-state", "still");
                 dogDiv.append(p, dogImage);
                 $("#dog-gifs").append(dogDiv);
             }
         });
-
     }
 
     function animateGifs() {

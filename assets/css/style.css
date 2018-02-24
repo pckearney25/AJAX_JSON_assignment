@@ -1,3 +1,114 @@
 /* Styling for It's a Dog, Dog, Dog, Dog World.*/
+body {
+    font-family: 'Indie Flower', cursive;
+  }
 
 
+  
+  
+  .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      clear: both;
+      background-color: white;
+      position: relative;
+      border-color: black;
+      border-style: solid;
+      border-width: 1px;
+  
+    }  
+
+    #header-div {
+        
+        background-color: crimson;
+        color: white;
+        font-size: 40px;
+        padding: 30px 0;
+        text-align: center;
+        text-shadow: -2px 2px #999;
+    }
+
+    #main-div {
+        background: url("../images/paws_n_bones.jpg");
+        min-height: 500px;
+        border-top: none;
+        border-bottom: none;
+        padding-bottom: 20px;
+
+    }
+
+    #dog-buttons {
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        background-color: crimson;
+        font-size: 20px;
+        color: white;
+        font-family: 'Indie Flower', cursive;
+        padding: 0px 8px;
+        border-radius: 6px;
+        margin-left: 10px;
+    }
+
+    form {
+        float: right;
+        width: 300px;
+        margin-right: 20px;
+        background-color: #999;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    label {
+        font-size: 24px;
+        line-height: 200%;
+        color: crimson;
+        text-shadow: -1px 1px white;
+        padding-left: 10px;
+    }
+
+    #dog-input {
+        width: 272px;
+        height: 20px;
+        margin-left: 10px;
+        margin-bottom: 12px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    #add-dog {
+        margin-left: 10px;
+        margin-bottom: 10px;
+        background-color: crimson;
+        font-size: 20px;
+        color: white;
+        font-family: 'Indie Flower', cursive;
+        padding: 0px 8px;
+        border-radius: 6px;
+    }
+
+    .dog-divs {
+        display: inline-block;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    p {
+        line-height: 200%;
+    }
+
+    #footer-div {
+        padding: 30px 0;
+        font-size: 16px;
+        color: white; 
+        text-align: center;
+        background: #999;
+        position: relative;
+        
+       
+      }
